@@ -1,0 +1,85 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+hr{
+    border: 0;
+    height: 5px;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.nav-link{
+    color: whitesmoke;
+}
+
+.home-page{
+    padding-top: 2em;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.home-page p{
+    text-align: justify;
+}
+
+.home-page h1{
+    margin-top: 1em;
+    font-weight: 700;
+    font-size: 8vmin;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    padding-top: 10em;
+}
+
+.about {
+    text-align: justify;
+}
+
+.about img{
+    height: 70vh;
+}
+
+.card{
+    height: 50%;
+}
+
+.card img{
+    height: 100%;
+}
+
+.third{ 
+    padding-top: 5em;
+}
+
+.third .card{
+    border: 3px solid rgb(36, 160, 237);
+}
+
+.sub-btn{
+    display: block;
+    width: 100%;
+}
+
+@media only screen and (max-width:1000px){
+    .home-page .row img{
+        display: none;
+    }
+
+}
